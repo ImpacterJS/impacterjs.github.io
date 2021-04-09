@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+/* nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  height: 10vh;
+}
+
+.nav .logo {
+  width: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav .menu {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-hr {
+  border: 0;
+  border-top: 1px solid rgb(209, 209, 209);
+}
+
+nav .search {
+  outline: 0;
+  border-width: 0;
+  appearance: none;
+  background-color: rgb(240, 240, 240);
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+input[type=search]::-webkit-search-cancel-button{
+  -webkit-appearance: none;
+}
+
+/* main */
+.main .big-title {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 245, 240);
+  /* will remove */
+  /* border: 1px solid green; */
+}
+
+.main .text {
+  font-size: 35px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-bottom: 60px;
+}
+
+.main .btns {
+  margin-top: 20px;
+}
+
+/* introduce */
+.introduce {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 8%;
+}
+.introduce .fraction {
+  width: 25%;
+  padding: 50px;
+  text-align: left;
+}
+.introduce .fraction .title {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.introduce .fraction .description {
+  text-align: left;
+  margin-top: 20px;
+}
+
+/* footer */
+footer {
+  height: 20vh;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 14px;
+}
+
+footer .logo {
+  margin: 2px 5px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.btn {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  height: 50px;
+  font-weight: bold;
+  background-color: rgb(255, 109, 73);
+  color: white;
+  border-radius: 26px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns .start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(255, 109, 73);
+  border: 1px solid rgb(255, 109, 73);
+  padding: 0 20px;
+  margin-right: 20px;
+}
+
+.btns .watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.btns .watch .circle {
+  width: 34px;
+  height: 34px;
+  background-color: white;
+  border-radius: 17px;
+  margin-right: 5px;
+}
+
+.btns .watch .triangle {
+  transform: translateX(2px) translateY(4.5px);
+}
+
+.btns .github {
+  border: 1px solid gray;
+  color: gray;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.btns  .github .githubimg {
+  margin-right: 20px;
+}
+
+
