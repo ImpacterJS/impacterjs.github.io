@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/impacter-logo.png" />
+  <title>Introduction - Impacter.js</title>
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/docs.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+</head>
+<body>
+  <!-- nav -->
+  <nav class="nav">
+    <section id="homepage" class="logo link">
+      <img src="../assets/impacter-logo.png" alt="impacter-logo" width="45px" height="45px" />
+      <div>Impacter.js</div>
+    </section>
+    <section class="menu">
+      <div class="link underline">Features</div>
+      <div id="docs" class="link underline">Docs</div>
+      <div class="link underline">API Reference</div>
+      <div class="link underline">Support Impacter.js</div>
+      <div class="relative">
+        <div id="translations" class="link">
+          Translations
+          <img src="../assets/down.png" alt="" width="12px" height="12px" />
+        </div>
+        <div id="translations-submenu" class="submenu">
+          <div class="submenu-show">
+            <div id="chinese" class="item link underline">中文</div>
+            <div id="english" class="item link underline">English</div>
+          </div>
+        </div>
+      </div>
+      <div class="link underline">GitHub</div>
+      <div>
+        <input class="search" type="search" placeholder="Search..." />
+      </div>
+    </section>
+  </nav>
+  <hr class="hr" />
+
+  <!-- main -->
+  <main>
+    <section class="content">
+      <!-- content -->
+      <h1>Introduction</h1>
+      <p>&nbsp;</p>
+      <h3>What is Impacter.js?</h3>
+      <hr>
+      <p>Impacter is an innovative framework for building web interfaces like app.</p>
+      <p>It seems like other app framework like Jetpack Composer or SwiftUI. The Impacter is designed to be convenient and
+        free the user from complex CSS code.</p>
+      <p>The core library is mainly about adapting HTML and selecting appropriate CSS to simulate the components on the
+        mobile end. In addition, if you are an iOS programmer, then you will</p>
+      <p>Faster hand on impacter.js. The Impacter API strongly mimicates Swiftui&#39;s API. Due to some HTML limitations, we
+        modified the mobile API slightly to accommodate the Web API as much as possible.</p>
+      <p>Currently impacter.js is still a baby. If you want to join us in the development, you can send us a Pull Request on
+        GitHub.</p>
+      <p>&nbsp;</p>
+      <p>If you’d like to learn more about Impacter before diving in, we created a video walking through the core principles
+        and a sample project.</p>
+      <p>&nbsp;</p>
+      <div class="video-container">
+        <img src="../assets/play-white.png" alt="play" style="margin-right: 15px;" width="25px" height="25px" />
+        Watch a free video course to learn Impacter.
+      </div>
+    </section>
+    <section class="menu light-background">
+      <div class="container">
+        <div class="guide">Guide 1.0</div>
+        <div class="title">Installation</div>
+        <div>
+          <div class="secondary">Add Impacter to Your Project</div>
+          <div class="secondary">Create a New Impacter App</div>
+          <div class="secondary">Release Channels</div>
+        </div>
+        <div class="title select">Introduction</div>
+        <div>
+          <div class="secondary select">What is Impacter.js?</div>
+          <div class="secondary">Getting Started</div>
+        </div>
+        <div class="title">Components</div>
+        <div>
+          <div class="secondary">HStack</div>
+          <div class="secondary">VStack</div>
+          <div class="secondary">ZStack</div>
+          <div class="secondary">Text</div>
+          <div class="secondary">Button</div>
+          <div class="secondary">Rectangle</div>
+          <div class="secondary">Circle</div>
+        </div>
+        <div class="title">Others</div>
+        <div>
+          <div class="secondary">About Author</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div>
+      <img class="logo" src="../assets/github-footer.png" alt="" width="20px" height="20px" />
+      <img class="logo" src="../assets/twitter-footer.png" alt="" width="20px" height="20px" />
+      <img class="logo" src="../assets/weibo-footer.png" alt="" width="20px" height="20px" />
+    </div>
+    <div>Released under the MIT License</div>
+    <div>Copyright © 2021-2021 Steve Yu</div>
+  </footer>
+</body>
+</html>
+<script src="../js/nav.js"></script>
+<script>
+  document.getElementById("homepage").onclick = function() {
+    window.location.href = "/index.html"
+  }
+  document.getElementById("chinese").onclick = function() {
+    window.location.href = "/docs/introduction-cn.html"
+  }
+  document.getElementById("english").onclick = function() {
+    window.location.href = "/docs/introduction.html"
+  }
+</script>

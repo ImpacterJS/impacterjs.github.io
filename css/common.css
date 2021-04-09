@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.link {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.light-background {
+  background-color: rgb(255, 245, 240);
+}
+
+.hr {
+  border: 0;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}

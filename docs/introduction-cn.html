@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets/impacter-logo.png" />
+  <title>Introduction - Impacter.js</title>
+  <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/nav.css" />
+  <link rel="stylesheet" href="../css/docs.css" />
+  <link rel="stylesheet" href="../css/footer.css" />
+</head>
+<body>
+  <nav class="nav">
+    <section id="homepage" class="logo link">
+      <img src="../assets/impacter-logo.png" alt="impacter-logo" width="45px" height="45px" />
+      <div>Impacter.js</div>
+    </section>
+    <section class="menu">
+      <div class="link underline">产品特点</div>
+      <div id="docs" class="link underline">文档</div>
+      <div class="link underline">API 参考</div>
+      <div class="link underline">支持 Impacter.js</div>
+      <div class="relative">
+        <div id="translations" class="link">
+          语言
+          <img src="../assets/down.png" alt="" width="12px" height="12px" />
+        </div>
+        <div id="translations-submenu" class="submenu">
+          <div class="submenu-show">
+            <div id="chinese" class="item link underline">中文</div>
+            <div id="english" class="item link underline">English</div>
+          </div>
+        </div>
+      </div>
+      <div class="link underline">GitHub</div>
+      <div>
+        <input class="search" type="search" placeholder="Search..." />
+      </div>
+    </section>
+  </nav>
+  <hr class="hr" />
+
+  <!-- main -->
+  <main>
+    <section class="content">
+      <h1>介绍</h1>
+      <p>&nbsp;</p>
+      <h3>什么是Impacter.js?</h3>
+      <p>Impacter是一个创新的框架，构建你的Web界面就像构建App一样。</p>
+      <p>这看起来就如同Jetpack Composer或者SwiftUI一样。Impacter从便捷出发，让用户免受复杂的CSS代码。</p>
+      <p>核心库主要是进行适配HTML和选择恰当的CSS进行模拟手机端的组件。另外，您如果是一位IOS程序员，那么您将</p>
+      <p>更快速地上手Impacter.js。Impacter的API极大力度模仿了SwiftUI的API。由于一些HTML的局限性，我们对手机端API稍加进行修改，来尽量适应Web API。</p>
+      <p>目前Impacter.js 还是一个婴儿。如果您想加入我们进行开发，可以在GitHub上给我们提Pull Request。</p>
+      <p>&nbsp;</p>
+      <p>如果您想深入学习，并了解更多Impacter的知识，我们创建了一个视频，介绍了Impacter.js 的核心和一个示例项目。</p>
+      <p>&nbsp;</p>
+      <div class="video-container">
+        <img src="../assets/play-white.png" alt="play" style="margin-right: 15px;" width="25px" height="25px">
+        观看本节视频讲解
+      </div>
+      <p>&nbsp;</p>
+    </section>
+    <section class="menu light-background">
+      <div class="container">
+        <div class="guide">教程 1.0</div>
+        <div class="title">安装</div>
+        <div>
+          <div class="secondary">在你的项目中添加Impacter</div>
+          <div class="secondary">创建一个Impacter App</div>
+          <div class="secondary">发布渠道</div>
+        </div>
+        <div class="title select">介绍</div>
+        <div>
+          <div class="secondary select">Impacter.js是什么?</div>
+          <div class="secondary">起步</div>
+        </div>
+        <div class="title">组件</div>
+        <div>
+          <div class="secondary">HStack</div>
+          <div class="secondary">VStack</div>
+          <div class="secondary">ZStack</div>
+          <div class="secondary">Text</div>
+          <div class="secondary">Button</div>
+          <div class="secondary">Rectangle</div>
+          <div class="secondary">Circle</div>
+        </div>
+        <div class="title">Others</div>
+        <div>
+          <div class="secondary">Add Impacter to Your Project</div>
+          <div class="secondary">Create a New Impacter App</div>
+          <div class="secondary">Release Channels</div>
+        </div>
+        <div class="title">Introduction</div>
+        <div>
+          <div class="secondary">What is Impacter.js?</div>
+          <div class="secondary">Getting Started</div>
+        </div>
+        <div class="title">Components</div>
+        <div>
+          <div class="secondary">HStack</div>
+          <div class="secondary">VStack</div>
+          <div class="secondary">ZStack</div>
+          <div class="secondary">Text</div>
+          <div class="secondary">Button</div>
+          <div class="secondary">Rectangle</div>
+          <div class="secondary">Circle</div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div>
+      <img class="logo" src="../assets/github-footer.png" alt="" width="20px" height="20px" />
+      <img class="logo" src="../assets/twitter-footer.png" alt="" width="20px" height="20px" />
+      <img class="logo" src="../assets/weibo-footer.png" alt="" width="20px" height="20px" />
+    </div>
+    <div>Released under the MIT License</div>
+    <div>Copyright © 2021-2021 Steve Yu</div>
+  </footer>
+</body>
+</html>
+<script src="../js/nav.js"></script>
+<script>
+  document.getElementById("homepage").onclick = function() {
+    window.location.href = "/index-cn.html"
+  }
+  document.getElementById("chinese").onclick = function() {
+    window.location.href = "/docs/introduction-cn.html"
+  }
+  document.getElementById("english").onclick = function() {
+    window.location.href = "/docs/introduction.html"
+  }
+</script>

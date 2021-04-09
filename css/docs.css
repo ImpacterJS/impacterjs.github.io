@@ -1,0 +1,74 @@
+main {
+  display: flex;
+}
+
+main *{
+  text-align: left;
+}
+
+main .content {
+  width: 70%;
+  height: 100%;
+  margin: 100px 15% 100px 15%;
+  line-height: 2;
+}
+
+main .menu {
+  width: 30%;
+  height: 100%;
+}
+
+main .menu .container {
+  margin: 100px 0;
+  margin-left: 30px;
+  color: rgb(77, 77, 77);
+}
+
+main .menu .container div {
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+main .menu .container .guide {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+main .menu .container .title {
+  font-weight: bold;
+}
+
+main .menu .container .select, main .menu .container .title:hover {
+  color: rgb(255, 93, 18);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+main .menu .container .secondary {
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+main .menu .container .secondary.select {
+  text-decoration: underline;
+}
+
+main .menu .container .secondary:hover {
+  color: rgb(255, 93, 18);
+  text-decoration: underline;
+}
+
+/* paragraph */
+hr {
+  border: 0;
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.video-container {
+  background-color: rgb(255, 145, 111);
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
